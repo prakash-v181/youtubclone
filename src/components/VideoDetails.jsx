@@ -1,3 +1,4 @@
+// src\components\VideoDetails.jsx
 import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player/youtube";
@@ -8,6 +9,7 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { fetchDataFromApi } from "../utils/api";
 import { Context } from "../context/contextApi";
 import SuggestionVideoCard from "./SuggestionVideoCard";
+import SuggestionVideoCard from "./SuggestionVideoCard.jsx";
 
 const VideoDetails = () => {
     const [video, setVideo] = useState();
