@@ -1,4 +1,4 @@
-// src\components\SuggestionvideoCard.jsx
+// src\components\SuggestionVideoCard.jsx
 import React from "react";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { BsFillCheckCircleFill } from "react-icons/bs";
