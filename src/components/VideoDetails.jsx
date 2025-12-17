@@ -8,8 +8,8 @@ import { abbreviateNumber } from "js-abbreviation-number";
 
 import { fetchDataFromApi } from "../utils/api";
 import { Context } from "../context/contextApi";
-import SuggestionVideoCard from "./SuggestionVideoCard";
 import SuggestionVideoCard from "./SuggestionVideoCard.jsx";
+
 
 const VideoDetails = () => {
     const [video, setVideo] = useState();
